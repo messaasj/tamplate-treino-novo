@@ -1,6 +1,6 @@
 @media (min-width: 340px) and (max-width: 768px){
     .main-header{
-        max-height: clamp(80%, 80vw, 81%);
+        max-height: clamp(60%, 60vw, 61%);
     }
     
     .fileira{
