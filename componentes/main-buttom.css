@@ -1,0 +1,9 @@
+.main-buttom{
+    background: linear-gradient(145deg, #1e0240, #3a0079);
+    padding: 5px 10px;
+    border: 0.8px solid #9700c5; /* Borda neon */
+    border-radius: 50px;
+    box-shadow: 0 0 1px #1e0240, 0 0 20px #1e0240, 0 0 30px #6e31b4; /* Efeito de brilho */
+    color: white;
+    text-decoration: none;
+}

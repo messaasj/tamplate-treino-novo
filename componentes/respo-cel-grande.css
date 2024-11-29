@@ -1,0 +1,33 @@
+@media (min-width: 340px) and (max-width: 768px){
+    .fileira{
+    background-color: aqua;
+    
+    margin: 0% 4% 0% 4%;
+    font-size: 0.9em;
+   }
+   .centro{
+    background: #ff5b5b;
+    margin-top: 15%; 
+   
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+/*responsivo clular pequeuno*/
+@media (max-width: 340px) {
+    .fileira{
+       
+        padding-top: 6%;
+        font-size: 0.85em;
+        margin: 0% 4% 0% 4%;
+    }
+}

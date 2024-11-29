@@ -1,0 +1,7 @@
+.main-action{
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+    transform: scale(1, 0.8); /* Achata verticalmente */
+    display: inline-block; /* Necessário para aplicar transformações no texto */
+}

@@ -1,0 +1,22 @@
+.main-header{
+    background-color: #1E0044;
+    height: 100vh;
+   max-width: clamp(98%, 100vw, 97%);
+   margin: auto;
+   transition-duration: 0.3s;
+   border-radius: 15px;
+}
+.main-header:hover{
+    box-shadow: 0 0 10px #592697, 0 0 14px #5405b4, 0 0 14px #7807f86e;
+
+    transform: scale(1.01);
+}
+.fileira{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+    margin: 0% 7% 0% 7%;
+    font-family: "Montserrat Alternates", sans-serif;
+
+}
