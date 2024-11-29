@@ -19,7 +19,10 @@
 }
 .wrapper{
     flex-direction: column;
-   
+    column-gap: 10%;
+    padding-top: 60px;
+        align-items: center;
+        gap: 48px;
 }
 .box{
     line-height: 22px;
@@ -50,5 +53,14 @@
     }
     .box h2{
         font-size: 1.5em;
+    }
+    .wrapper{
+        gap: 15px;
+        padding-top: 10px;
+        flex-direction: column;
+       
+    }
+    .buttom-section{
+        padding: 3% 3%;
     }
 }

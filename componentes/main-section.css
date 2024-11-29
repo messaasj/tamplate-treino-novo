@@ -20,12 +20,41 @@
     transition-duration: 0.3s;
     font-family: "Montserrat Alternates", sans-serif;
 }
+.box:hover{
+    box-shadow: 0 0 10px #592697, 0 0 14px #5405b4, 0 0 14px #7807f86e;
+    transform: scale(1.02);
+    box-shadow: 1px 1px 18px rgba(0, 0, 0, 0.5);
+}
 .box h2{
     font-size: 2.1em;
     font-weight: 100;
 }
+.buttom-section{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
+    text-decoration: none;
+    color: rgb(224, 224, 224);
+    padding: 1% 1%;
+    border-radius: 15px;
+    font-family: "Albert Sans", sans-serif;
+    animation: textura 3.4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite;
+    background-image: linear-gradient(45deg, #7a34db, #8e2cdf, #7a34db, #8e2cdf);
+    background-size: 400% 200%;
+    transition: all 0.8s;
+}
+@keyframes textura {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+.buttom-section:hover{
+    background-position: 100% 0;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
 .wrapper{
-    margin-top: 20%;
+    
     display: flex;
     justify-content: space-around;
 }
