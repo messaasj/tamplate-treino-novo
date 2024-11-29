@@ -1,7 +1,10 @@
 @media (min-width: 340px) and (max-width: 768px){
+    .main-header{
+        max-height: clamp(80%, 80vw, 81%);
+    }
+    
     .fileira{
     background-color: aqua;
-    
     margin: 0% 4% 0% 4%;
     font-size: 0.9em;
    }
