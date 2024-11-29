@@ -8,7 +8,7 @@
    
 }
 .centro p{
-    font-size: clamp(0.5em, 5vw, 1.2em);
+    font-size: clamp(0.4em, 5vw, 1.2em);
     font-family: "Quicksand", sans-serif;
     color: white;
     font-weight: 200

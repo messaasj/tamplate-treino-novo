@@ -1,0 +1,31 @@
+.main-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    margin: 30px;
+    
+    
+}
+.box{
+    margin-top: 6%;
+    background: linear-gradient(to right, #8338EC, #9C2EF5);
+    border-radius: 15px;
+   color: white;
+    height: 70vh;
+    padding: 40px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    font-weight: lighter;
+    font-style: italic;
+    transition-duration: 0.3s;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.box h2{
+    font-size: 2.1em;
+    font-weight: 100;
+}
+.wrapper{
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-around;
+}

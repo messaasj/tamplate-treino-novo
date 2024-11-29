@@ -1,6 +1,6 @@
 @media (min-width: 340px) and (max-width: 768px){
     .main-header{
-    height: clamp(60%, 60vh, 61%);
+    height: clamp(600px, 80vh, 600px);
     }
     
     .fileira{
@@ -11,6 +11,20 @@
    .centro{
     margin-top: 15%; 
 }
+.box h2{
+    font-size: 1.8em;
+}
+.main-section{
+    flex-direction: column; /* Coloca os itens em coluna */
+}
+.wrapper{
+    flex-direction: column;
+   
+}
+.box{
+    line-height: 22px;
+}
+
 }
 
 
@@ -30,5 +44,11 @@
         padding-top: 6%;
         font-size: 0.85em;
         margin: 0% 4% 0% 4%;
+    }
+    .box{
+       line-height: 20px;
+    }
+    .box h2{
+        font-size: 1.5em;
     }
 }
