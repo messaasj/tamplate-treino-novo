@@ -1,4 +1,4 @@
-@media (min-width: 340px) and (max-width: 768px){
+@media (min-width: 389px) and (max-width: 768px){
     .main-header{
     height: clamp(600px, 80vh, 600px);
     }
@@ -9,7 +9,10 @@
     font-size: 0.9em;
    }
    .centro{
-    margin-top: 15%; 
+    margin-top: 45%; 
+}
+.box{
+    height: 40vh;
 }
 .box h2{
     font-size: 1.8em;
@@ -18,16 +21,18 @@
     flex-direction: column; /* Coloca os itens em coluna */
 }
 .wrapper{
-    flex-direction: column;
-    column-gap: 10%;
-    padding-top: 60px;
+        flex-direction: column;
+        column-gap: 10%;
+        
         align-items: center;
         gap: 48px;
 }
 .box{
     line-height: 22px;
 }
-
+.buttom-section{
+    padding: 4% 4%;
+}
 }
 
 
@@ -41,15 +46,19 @@
 
 
 /*responsivo clular pequeuno*/
-@media (max-width: 340px) {
+@media (max-width: 390px) {
     .fileira{
        
         padding-top: 6%;
         font-size: 0.85em;
         margin: 0% 4% 0% 4%;
     }
+    .centro{
+        margin-top: 45%; 
+    }
     .box{
        line-height: 20px;
+       height: 40vh;
     }
     .box h2{
         font-size: 1.5em;
@@ -61,6 +70,6 @@
        
     }
     .buttom-section{
-        padding: 3% 3%;
+        padding: 4% 4%;
     }
 }
