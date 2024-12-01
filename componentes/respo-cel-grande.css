@@ -46,7 +46,10 @@
 
 
 /*responsivo clular pequeuno*/
-@media (max-width: 390px) {
+@media screen and (max-device-width: 390px) and (orientation: portrait) {
+   body{
+    background-color: #fff;
+   }
     .fileira{
        
         padding-top: 6%;
