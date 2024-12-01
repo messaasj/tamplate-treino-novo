@@ -40,7 +40,7 @@
 }
 .escrita{
     
- width: 70vw;
+ max-width: 75vw;
     gap: 10px
 }
 .image1{
