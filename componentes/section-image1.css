@@ -1,0 +1,67 @@
+.section-image1{
+ 
+}
+.caixa-elementos{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, #E9DEFF, #c6bcd8);
+    height: 75vh;
+    max-width: clamp(96%, 100vw, 96%);
+    border-radius: 15px;
+    margin: auto;
+    justify-content: space-around;
+    transition-duration: 0.2s;
+    
+}
+.caixa-elementos:hover{
+    box-shadow: 0 0 10px #adadadcc, 0 0 14px #878688b7, 0 0 14px #878688b0;
+  
+   
+
+}
+.escrita{
+    line-height: 2em !important;
+    background: rgba(109, 109, 109, 0.3); /* Cor de fundo branca com 30% de opacidade */
+    backdrop-filter: blur(50px); /* Desfoque aplicado ao fundo */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra sutil para destacar o efeito */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidade com navegadores WebKit */
+    padding: 2em;
+    border-radius: 15px;
+    transition-duration: 0.2s;
+   
+}
+.escrita:hover{
+    padding: 2.3em;
+}
+.escrita h1{
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #0b001ae5;
+    font-weight: 500;
+    word-spacing: 1.3px;
+    font-size: 2.8em;
+}
+.escrita p{
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #160233e8;
+    font-weight: 200;
+    word-spacing: 1.5px;
+}
+.image1{
+    width: clamp(200px, 40vw, 500px); /* Min: 200px, Responsivo: 50% da largura da viewport, Max: 500px */
+
+}
+.main-buttom.-trans{
+   
+    background: linear-gradient(145deg, #ffffff, #e9dbf8);
+    box-shadow: 0 0 1px #1e0240, 0 0 30px #a07fc9, 0 0 5px #9671c2; 
+    border: 1.4px solid #c289d3; 
+    color: #ce56f3;
+    font-size: 1em;
+    padding: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition-duration: 0.2s;
+}
+.main-buttom.-trans:hover{
+    transform: scale(1.05); /* Aumenta o tamanho em 4% */
+   
+}

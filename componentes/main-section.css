@@ -23,7 +23,7 @@
 .box:hover{
     box-shadow: 0 0 10px #592697, 0 0 14px #5405b4, 0 0 14px #7807f86e;
     transform: scale(1.02);
-    box-shadow: 1px 1px 18px rgba(0, 0, 0, 0.5);
+    
 }
 .box h2{
     font-size: 2.1em;

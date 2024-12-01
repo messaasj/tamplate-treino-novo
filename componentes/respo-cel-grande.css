@@ -33,7 +33,23 @@
 .buttom-section{
     padding: 4% 4%;
 }
+
+.caixa-elementos{
+    flex-direction: column;
+    height: 80vh;
 }
+.escrita{
+    
+ width: 70vw;
+    gap: 10px
+}
+.image1{
+    width: clamp(300px, 40vw, 500px); /* Min: 200px, Responsivo: 50% da largura da viewport, Max: 500px */
+
+}
+}
+   
+
 
 
 
@@ -47,9 +63,7 @@
 
 /*responsivo clular pequeuno*/
 @media screen and (max-device-width: 390px) and (orientation: portrait) {
-   body{
-    background-color: #fff;
-   }
+  
     .fileira{
        
         padding-top: 6%;
@@ -75,4 +89,14 @@
     .buttom-section{
         padding: 4% 4%;
     }
+    .caixa-elementos{
+        flex-direction: column;
+    }
+    .escrita{
+        
+     width: 70vw;
+        gap: 10px
+    }
+    
+    
 }

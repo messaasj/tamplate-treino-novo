@@ -6,8 +6,18 @@
 .centro{
     margin-top: 11%; /*ajustar no mq p centralizar*/
 }
-.box{
+
+.caixa-elementos{
+    flex-direction: column;
+}
+.escrita{
     
+ width: 70vw;
+    gap: 10px
 }
 
+.image1{
+    width: clamp(350px, 40vw, 600px); /* Min: 200px, Responsivo: 50% da largura da viewport, Max: 500px */
+
+}
 }
