@@ -7,12 +7,12 @@
     
 }
 .box{
-    margin-top: 10%;
+    margin-top: 5%;
     background: linear-gradient(to right, #8338EC, #9C2EF5);
     border-radius: 15px;
    color: white;
     height: 60vh;
-    padding: 40px;
+    padding: 20px 40px 40px 40px;
     font-weight: lighter;
     font-style: italic;
     transition-duration: 0.3s;
