@@ -1,13 +1,4 @@
 /* Telas pequenas (celulares maiores: <= 390px, como iPhone 14, Galaxy S23) */
-@media (max-width: 390px) {
-    body {
-      font-size: 1rem;
-      line-height: 1.5;
-    }
-    .box{
-        height: 45vh;
-    }
-  }
 
 
 
@@ -32,9 +23,10 @@
 
 
 /* Pequenos celulares (<= 320px, como iPhone SE antigo) */
-@media (max-width: 389px) {
+@media (max-width: 395px) {
     body {
-      font-size: 0.9rem;
+        font-size: 1rem;
+        line-height: 1.5;
     }
     .box{
 
