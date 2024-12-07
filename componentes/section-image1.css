@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     background: linear-gradient(to bottom, #E9DEFF, #c6bcd8);
-    height: 75vh;
+    height: 85vh;
     max-width: clamp(96%, 100vw, 96%);
     border-radius: 15px;
     margin: auto;

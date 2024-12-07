@@ -32,11 +32,12 @@
 
 
 /* Pequenos celulares (<= 320px, como iPhone SE antigo) */
-@media (max-width: 320px) {
+@media (max-width: 389px) {
     body {
       font-size: 0.9rem;
     }
     .box{
-        max-height: 45vh;
+
+       
     }
   }
