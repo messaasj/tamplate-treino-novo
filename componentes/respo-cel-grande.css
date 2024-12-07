@@ -10,7 +10,7 @@
     }
      .box{
    
-        height: 30vh;
+        height: 40vh;
     }
     .caixa-elementos{
        max-height: 100vh;
@@ -29,8 +29,13 @@
         line-height: 1.5;
     }
     .box{
-
        height: 40vh;
     }
+    .buttom-section{
+        padding: 3% 1% 3% 1%;
+    }
     
+    .caixa-elementos{
+        max-height: 100vh;
+     }
   }
