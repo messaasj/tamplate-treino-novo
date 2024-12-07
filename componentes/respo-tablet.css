@@ -1,23 +1,110 @@
-@media (min-width: 768px) and (max-width: 1024px) {
-.fileira{
-        padding-top: 4%;
-   }
-   
-.centro{
-    margin-top: 11%; /*ajustar no mq p centralizar*/
-}
 
-.caixa-elementos{
-    flex-direction: column;
-}
-.escrita{
+
+
+
+
+/* Telas médias (tablets pequenos: <= 768px, como iPad Mini) */
+@media (max-width: 768px) {
+
+    .main-header{
+        max-height: 60vh;
+    }
+    .box{
+        height: 30vh;
+    }
+    .escrita{
+        max-width: 40%;
+    }
+    .main-section{
+        display: flex;
+        flex-direction: column;
     
- width: 70vw;
-    gap: 10px
+    
+    }
+    .caixa-elementos{
+     
+        max-height: 60vh;
+    }
+
+  }
+  
+
+
+
+
+
+
+
+/* parte especial para tratar o section-image1 */
+@media (max-width: 660px){
+    .box{
+        height: 30vh;
+    }
+    .escrita{
+        max-height: 70%;
+        line-height: 1.6em !important;
+    }
+    .caixa-elementos{
+       
+      
+    }
+
 }
 
-.image1{
-    width: clamp(350px, 40vw, 600px); /* Min: 200px, Responsivo: 50% da largura da viewport, Max: 500px */
+/* parte especial para tratar o section-image1 */
+@media (max-width: 595px){
+
+    .box{
+        height: 30vh;
+    }
+    .caixa-elementos{
+        display: flex;
+        flex-direction: column;
+       max-height: 100vh;
+       
+    }
+    .escrita{
+        max-width: 65%;
+    }
+    .image1{
+        width: clamp(300px, 40vw, 600px); /* Min: 200px, Responsivo: 50% da largura da viewport, Max: 500px */
+    
+    }
+
+
 
 }
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .main-header{
+        max-height: 70vh;
+    }
+    .box{
+        max-height: 37vh;
+        
+    }
+    .pai{
+       align-items: center;
+    }
+    .escrita{
+        max-width: 40%;
+    }
+    .espacamento{
+     background-color: #cf1414;
+     hyphens: auto;
+     text-align: center;
+    }
+    .caixa-elementos{
+        max-height: 65vh;
+    }
 }

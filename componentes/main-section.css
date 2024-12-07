@@ -7,18 +7,19 @@
     
 }
 .box{
-    margin-top: 6%;
+    margin-top: 10%;
     background: linear-gradient(to right, #8338EC, #9C2EF5);
     border-radius: 15px;
    color: white;
-    height: 70vh;
+    height: 60vh;
     padding: 40px;
-    line-height: 35px;
-    letter-spacing: 0.02em;
     font-weight: lighter;
     font-style: italic;
     transition-duration: 0.3s;
     font-family: "Montserrat Alternates", sans-serif;
+}
+.box p{
+    line-height: 150%;
 }
 .box:hover{
     box-shadow: 0 0 10px #592697, 0 0 14px #5405b4, 0 0 14px #7807f86e;
@@ -29,6 +30,7 @@
     font-size: 2.1em;
     font-weight: 100;
 }
+
 .buttom-section{
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); 
     text-decoration: none;

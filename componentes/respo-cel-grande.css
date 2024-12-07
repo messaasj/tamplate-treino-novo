@@ -1,104 +1,38 @@
-@media (min-width: 389px) and (max-width: 768px){
-    .main-header{
-    height: clamp(600px, 80vh, 600px);
-    }
-    
-    .fileira{
-
-    margin: 0% 4% 0% 4%;
-    font-size: 0.9em;
-   }
-   .centro{
-    margin-top: 45%; 
-}
-.box{
-    height: 40vh;
-}
-.box h2{
-    font-size: 1.8em;
-}
-.main-section{
-    flex-direction: column; /* Coloca os itens em coluna */
-}
-.wrapper{
-        flex-direction: column;
-        column-gap: 10%;
-        
-        align-items: center;
-        gap: 48px;
-}
-.box{
-    line-height: 22px;
-}
-.buttom-section{
-    padding: 4% 4%;
-}
-
-.caixa-elementos{
-    flex-direction: column;
-    height: 90vh;
-}
-.escrita{
-
-
-
- max-width: 70vw;
-    gap: 10px
-}
-.image1{
-    width: clamp(300px, 30vw, 500px); /* Min: 200px, Responsivo: 50% da largura da viewport, Max: 500px */
-
-}
-}
-   
-
-
-
-
-
-
-
-
-
-
-
-
-/*responsivo clular pequeuno*/
-@media screen and (max-device-width: 390px) and (orientation: portrait) {
-  
-    .fileira{
-       
-        padding-top: 6%;
-        font-size: 0.85em;
-        margin: 0% 4% 0% 4%;
-    }
-    .centro{
-        margin-top: 45%; 
+/* Telas pequenas (celulares maiores: <= 390px, como iPhone 14, Galaxy S23) */
+@media (max-width: 390px) {
+    body {
+      font-size: 1rem;
+      line-height: 1.5;
     }
     .box{
-       line-height: 20px;
-       height: 40vh;
+        height: 36vh;
     }
-    .box h2{
-        font-size: 1.5em;
+  }
+
+
+
+/* celulares pouco maior*/
+@media (max-width: 440px) {
+   
+    .main-header{
+        max-height: 50vh;
     }
-    .wrapper{
-        gap: 15px;
-        padding-top: 10px;
-        flex-direction: column;
-       
-    }
-    .buttom-section{
-        padding: 4% 4%;
+     .box{
+        height: 30vh;
     }
     .caixa-elementos{
-        flex-direction: column;
+       max-height: 100vh;
     }
-    .escrita{
-        
-     width: 70vw;
-        gap: 10px
+  }
+
+
+
+
+
+
+/* Pequenos celulares (<= 320px, como iPhone SE antigo) */
+@media (max-width: 320px) {
+    body {
+      font-size: 0.9rem;
     }
-    
-    
-}
+  }
