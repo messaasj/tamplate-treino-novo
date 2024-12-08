@@ -1,0 +1,72 @@
+.caixa-elementos2{
+
+    display: flex;animation: textura 3.4s cubic-bezier(0.2, 0.5, 0.9, 0.6) 2s infinite;
+    background-image: linear-gradient(45deg, #1E0044, #36017a, #1E0044, #36017a);
+    background-size: 400% 200%;
+    transition: all 20.0s;
+
+    justify-content: space-around;
+    align-items: center;
+    height: 85vh;
+    max-width: clamp(96%, 100vw, 96%);
+    border-radius: 15px;
+    margin: auto;
+    transition-duration: 0.2s;
+    margin-top: 70px;
+   
+
+}
+.escrita-Roxa{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 35%;
+}
+.cursivat{
+    font-size: clamp(3em, 5vw, 4em);
+    background: linear-gradient(90deg, #8338EC, #B923FF); -webkit-background-clip: text; color: transparent;
+    font-family: "Playfair Display", serif ;
+    font-weight: 400; /* Peso da fonte */
+    font-style: italic; /* Estilo itálico */
+}
+.tratar-buttom{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+.buttão{
+    
+    font-family: "Montserrat Alternates", sans-serif;
+    color: white;
+    border: 1px solid white;
+    padding: 1%;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+.buttão:hover{
+    border: 1px solid #592697;
+    color: #592697;
+    cursor: pointer;
+}
+.w1{
+     
+}
+.w2{
+  
+    line-height: 160%;
+    font-family: "Montserrat Alternates", sans-serif;
+    color: white;
+    word-spacing: 1px;
+ font-size: 14px;
+    font-weight:lighter;
+}
+
+.main-buttom.-w2{
+    padding: 2%;
+    box-shadow: 0 0 1px #1e0240, 0 0 20px #1e0240, 0 0 10px #6e31b4; /* Efeito de brilho */
+    color: white;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+}

@@ -47,6 +47,7 @@
     font-family: "Montserrat Alternates", sans-serif;
     color: #160233e8;
     font-weight: 200;
+    text-align: start;
     word-spacing: 1.5px;
 }
 .image1{
@@ -67,4 +68,7 @@
 .main-buttom.-trans:hover{
     transform: scale(1.05); /* Aumenta o tamanho em 4% */
    
+}
+.espacamento{
+    text-align: center;
 }

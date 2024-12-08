@@ -26,6 +26,20 @@
      
         max-height: 60vh;
     }
+  
+
+    .caixa-elementos2{
+        max-height: 65vh;
+        
+    }
+    .escrita-Roxa{
+        height: 90%;
+   
+        max-width: 50%;
+    }
+    .tratar-buttom{
+        gap: 10px;
+    }
 
   }
   
@@ -69,6 +83,18 @@
     
     }
 
+    .caixa-elementos2{
+        flex-direction: column;
+        max-height: 100vh;
+     
+    }
+    .escrita-Roxa{
+        justify-content: space-around;
+        gap: 20%;
+       
+    }
+
+
 
 
 }
@@ -100,9 +126,21 @@
     .espacamento{
      background-color: #cf1414;
      hyphens: auto;
-     text-align: center;
+     
     }
     .caixa-elementos{
         max-height: 65vh;
     }
+    .caixa-elementos2{
+        max-height: 65vh;
+        
+    }
+    .tratar-buttom{
+        gap: 20px;
+    }
+    .buttão{
+        font-size: clamp(14px 50vw 16px);
+     
+    }
+    
 }

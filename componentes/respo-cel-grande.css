@@ -14,6 +14,10 @@
     }
     .caixa-elementos{
        max-height: 100vh;
+       margin-bottom: 20%;
+    }
+    .escrita-Roxa{
+        min-width: 300px;
     }
   }
 

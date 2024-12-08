@@ -4,4 +4,9 @@
     color: white;
     transform: scale(1, 0.8); /* Achata verticalmente */
     display: inline-block; /* Necessário para aplicar transformações no texto */
+    transition-duration: 0.3s;
+}
+.main-action:hover{
+    border-bottom: 1px solid#592697;
+
 }
